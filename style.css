@@ -53,3 +53,17 @@ body {
     border-top: 5px solid #4aaaa5;
     color: white;
 }
+
+.overrideCard {
+    border: none;
+}
+
+.card-columns {
+    column-count: 2
+}
+
+@media (max-width: 800px) {
+    .card-columns {
+        column-count: 1
+    }
+}
